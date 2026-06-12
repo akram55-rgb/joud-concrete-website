@@ -21,10 +21,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Ambient Sound Toggle (Subtle Bubbling SFX or background ambiance) -->
-    <div class="sound-control" id="soundControl" title="كتم / تشغيل صوت البحر">
-        <i class="fa-solid fa-water"></i>
-    </div>
+
     <!-- Navigation Bar / Control Panel -->
     <header class="header">
         <div class="logo-area">
@@ -52,6 +49,7 @@
             </button>
         </div>
     </header>
+
     <!-- Interactive Depth Indicator (Diving Meter) -->
     <div class="depth-meter">
         <div class="depth-pointer">
@@ -64,6 +62,7 @@
             <div class="depth-node" data-target="3" title="الهاوية">600m</div>
         </div>
     </div>
+
     <!-- Background Elements (Water, Bubbles, Light rays) -->
     <div class="background-container">
         <div class="light-ray"></div>
@@ -71,8 +70,10 @@
         <div class="water-overlay"></div>
         <div class="particles-container" id="bubblesContainer"></div>
     </div>
+
     <!-- Main Content Container with Scroll Snapping -->
     <main class="main-scroller" id="mainScroller">
+
         <!-- SECTION 1: Sunlight Zone (0m) - Hero & Identity -->
         <section class="scroll-section hero-section" id="sec-sunlight" data-depth="0">
             <div class="section-content">
@@ -90,6 +91,7 @@
                             <p data-key="loc-desc">جمهورية العراق، نينوى، جنوب الموصل، ناحية القيارة</p>
                         </div>
                     </div>
+
                     <div class="hero-buttons">
                         <a href="#sec-abyss" class="cta-btn primary" data-key="cta-contact">اتصل بنا الآن</a>
                         <a href="#sec-midnight" class="cta-btn secondary" data-key="cta-projects">مشاريعنا الهندسية</a>
@@ -102,6 +104,7 @@
                 <i class="fa-solid fa-angles-down bounce"></i>
             </div>
         </section>
+
         <!-- SECTION 2: Twilight Zone (150m) - Services & Quality -->
         <section class="scroll-section services-section" id="sec-twilight" data-depth="150">
             <div class="section-content">
@@ -120,6 +123,7 @@
                         <h3 data-key="srv1-title">معامل الصب الجاهز</h3>
                         <p data-key="srv1-desc">طاقات إنتاجية عالية بأحدث الخلاطات المركزية المحوسبة لضمان دقة نسب الخلط والإنتاج المستمر.</p>
                     </div>
+
                     <!-- Service 2: General Contracting -->
                     <div class="service-card">
                         <div class="card-icon">
@@ -128,6 +132,7 @@
                         <h3 data-key="srv2-title">المقاولات العامة</h3>
                         <p data-key="srv2-desc">تنفيذ المشاريع الإنشائية، الطرق، الجسور والبنى التحتية بإشراف طواقم هندسية خبيرة وبأحدث الآليات.</p>
                     </div>
+
                     <!-- Service 3: Engineering Lab -->
                     <div class="service-card">
                         <div class="card-icon">
@@ -136,6 +141,7 @@
                         <h3 data-key="srv3-title">مختبر الجودة والسيطرة</h3>
                         <p data-key="srv3-desc">فحص مستمر ومجهري للمواد الأولية والخرسانة الناتجة لضمان مقاومة الضغط (C20 - C50) ومطابقتها للمواصفات العراقية والعالمية.</p>
                     </div>
+
                     <!-- Service 4: Logistic Fleet -->
                     <div class="service-card">
                         <div class="card-icon">
@@ -147,6 +153,7 @@
                 </div>
             </div>
         </section>
+
         <!-- SECTION 3: Midnight Zone (300m) - 3D Engineering Projects -->
         <section class="scroll-section projects-section" id="sec-midnight" data-depth="300">
             <div class="section-content">
@@ -186,6 +193,7 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Project 2: Mixer Truck Fleet -->
                     <div class="project-3d-card" id="project2">
                         <div class="card-inner">
@@ -215,6 +223,7 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Project 3: Bridge Concrete Pier -->
                     <div class="project-3d-card" id="project3">
                         <div class="card-inner">
@@ -244,6 +253,7 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Project 4: High-End Concrete Buildings -->
                     <div class="project-3d-card" id="project4">
                         <div class="card-inner">
@@ -273,9 +283,70 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Project 5: Raft Foundation Slab Pouring -->
+                    <div class="project-3d-card" id="project5">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="image-wrapper">
+                                    <img src="assets/slab_pour.png" alt="صب أسس خرسانية">
+                                    <div class="image-glow"></div>
+                                </div>
+                                <div class="card-info">
+                                    <h3 data-key="p5-title">صب أسس الهياكل الخرسانية العملاقة</h3>
+                                    <span class="project-status" data-key="p-completed">أعمال منفذة</span>
+                                </div>
+                            </div>
+                            <div class="card-back">
+                                <h3 data-key="p5-title-back">صب الأساس الحصيري</h3>
+                                <p data-key="p5-desc">تنفيذ أعمال صب الأسس الحصيرية (Raft Foundations) بسماكات عالية خالية من التشققات والتكهفات مع معالجة مائية ممتازة.</p>
+                                <div class="project-metrics">
+                                    <div>
+                                        <span class="metric-val">2500m³</span>
+                                        <span class="metric-lbl" data-key="p5-vol">حجم الصب الأقصى</span>
+                                    </div>
+                                    <div>
+                                        <span class="metric-val">C35</span>
+                                        <span class="metric-lbl" data-key="p-grade">رتبة الخرسانة</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6: Concrete Pumping High Rise -->
+                    <div class="project-3d-card" id="project6">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="image-wrapper">
+                                    <img src="assets/pump_pour.png" alt="ضخ خرسانة للمرتفعات">
+                                    <div class="image-glow"></div>
+                                </div>
+                                <div class="card-info">
+                                    <h3 data-key="p6-title">ضخ الخرسانة للأبنية المرتفعة</h3>
+                                    <span class="project-status" data-key="p-active">إنشاء مستمر</span>
+                                </div>
+                            </div>
+                            <div class="card-back">
+                                <h3 data-key="p6-title-back">الضخ الرأسي والارتفاعات</h3>
+                                <p data-key="p6-desc">استخدام مضخات ذراع هيدروليكية متطورة لإيصال الخرسانة لقمم الهياكل والمباني السكنية المرتفعة في الموصل.</p>
+                                <div class="project-metrics">
+                                    <div>
+                                        <span class="metric-val">+15</span>
+                                        <span class="metric-lbl" data-key="p6-floors">طوابق مرتفعة</span>
+                                    </div>
+                                    <div>
+                                        <span class="metric-val">100%</span>
+                                        <span class="metric-lbl" data-key="p6-flow">انسيابية الضخ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+
         <!-- SECTION 4: The Abyss (600m) - Contact, Map & Footer -->
         <section class="scroll-section contact-section" id="sec-abyss" data-depth="600">
             <div class="section-content">
@@ -299,6 +370,7 @@
                             </div>
                             <i class="fa-solid fa-chevron-left arrow-rtl"></i>
                         </a>
+
                         <!-- WhatsApp -->
                         <a href="https://wa.me/9647709664801" target="_blank" rel="noopener noreferrer" class="contact-card whatsapp">
                             <div class="contact-icon">
@@ -310,6 +382,7 @@
                             </div>
                             <i class="fa-solid fa-chevron-left arrow-rtl"></i>
                         </a>
+
                         <!-- Facebook -->
                         <a href="https://www.facebook.com/share/1K7BYMpovn/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="contact-card facebook">
                             <div class="contact-icon">
@@ -321,6 +394,7 @@
                             </div>
                             <i class="fa-solid fa-chevron-left arrow-rtl"></i>
                         </a>
+
                         <!-- TikTok -->
                         <a href="https://www.tiktok.com/@concret_pour?_r=1&_t=ZS-978IGTIKzPb" target="_blank" rel="noopener noreferrer" class="contact-card tiktok">
                             <div class="contact-icon">
@@ -333,28 +407,21 @@
                             <i class="fa-solid fa-chevron-left arrow-rtl"></i>
                         </a>
                     </div>
-                    <!-- Left side: Stylized interactive Iraq/Mosul locator -->
+
+                    <!-- Left side: Locator -->
                     <div class="map-container">
                         <div class="map-card">
                             <div class="map-svg-wrapper">
-                                <!-- Minimalist SVG map representation of Iraq focusing on Nineveh (Mosul/Qayyarah) -->
                                 <svg viewBox="0 0 400 400" class="iraq-map">
-                                    <!-- Simple path outline of Iraq (abstracted for premium geometric look) -->
                                     <path d="M120 70 L200 40 L280 80 L350 140 L340 220 L380 290 L330 350 L270 340 L240 370 L190 340 L160 300 L90 280 L70 200 L90 120 Z" class="map-outline" />
-                                    <!-- Euphrates & Tigris schematic rivers -->
                                     <path d="M190 40 Q210 150 250 250 T330 350" class="map-river tigris" />
                                     <path d="M110 90 Q170 210 210 290 T270 360" class="map-river euphrates" />
-                                    
-                                    <!-- Mosul/Qayyarah Anchor Point -->
                                     <g class="map-marker active-pulse">
                                         <circle cx="195" cy="85" r="8" class="marker-glow"></circle>
                                         <circle cx="195" cy="85" r="4" class="marker-dot"></circle>
-                                        <!-- Callout text -->
                                         <text x="210" y="80" class="map-label label-mosul" data-key="map-mosul">الموصل</text>
                                         <text x="210" y="95" class="map-label label-qayyarah" data-key="map-qayyarah">القيارة (مقر المعمل)</text>
                                     </g>
-                                    
-                                    <!-- Baghdad indicator for scale -->
                                     <g class="map-marker">
                                         <circle cx="230" cy="180" r="3" class="marker-dot-small"></circle>
                                         <text x="240" y="184" class="map-label label-baghdad" data-key="map-baghdad">بغداد</text>
@@ -368,7 +435,8 @@
                         </div>
                     </div>
                 </div>
-                <!-- Footer section (Semi-transparent / Subtle as requested) -->
+
+                <!-- Footer section -->
                 <footer class="footer">
                     <p class="copyright" data-key="footer-copyright">جميع الحقوق محفوظة © 2026</p>
                     <div class="signature">
@@ -378,7 +446,9 @@
                 </footer>
             </div>
         </section>
+
     </main>
+
     <!-- Custom JS -->
     <script src="script.js"></script>
 </body>

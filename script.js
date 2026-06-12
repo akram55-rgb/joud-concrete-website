@@ -29,36 +29,53 @@ const translations = {
         "srv4-desc": "أسطول حديث من سيارات الخباطات ومضخات الكونكريت بأذرع طويلة تصل لأكثر الارتفاعات والمناطق تعقيداً.",
         "projects-title": "معرض المشاريع ثلاثي الأبعاد",
         "projects-subtitle": "مرر الفأرة أو المس الشاشة لتحريك المشاريع بأبعاد ثلاثية واقعية",
+        
         "p1-title": "معمل صب الخرسانة الجاهزة بالقيارة",
         "p1-title-back": "المواصفات التقنية",
         "p1-desc": "نظام تحكم رقمي بالكامل (PLC)، خلاطات رطبة وجافة فائقة الدقة لتلبية المشاريع العملاقة بأسرع وقت.",
         "p-cap": "القدرة الإنتاجية",
         "p-quality": "نسبة المطابقة",
         "p-active": "نشط / إنتاج يومي",
+        
         "p2-title": "أسطول الناقلات والمضخات",
         "p2-title-back": "الخدمات اللوجستية",
         "p2-desc": "سيارات نقل وخلط سعة 10-12 متر مكعب، مع مضخات ذات امتداد يصل إلى 52 متراً لصب الأبراج والجسور.",
         "p-trucks": "عدد الشاحنات",
         "p-pump": "طول المضخة",
         "p-ready": "جاهزية 24/7",
+        
         "p3-title": "مشاريع صب ركائز الجسور",
         "p3-title-back": "الهندسة المائية والجسور",
         "p3-desc": "صب ركائز خرسانية مقاومة للأملاح الكبريتية وعوامل التعرية المائية في نهر دجلة وفروعه بجنوب الموصل.",
         "p-grade": "رتبة الخرسانة",
         "p-marine": "مقاومة مائية",
         "p-completed": "منفذ بدقة",
+        
         "p4-title": "الهياكل والمقاولات الإنشائية",
         "p4-title-back": "المقاولات العمرانية",
         "p4-desc": "تنفيذ الهياكل الخرسانية للأبنية متعددة الطوابق والمراكز التجارية والمجمعات السكنية في القيارة والموصل.",
         "p-area": "إجمالي المساحة",
         "p-standard": "معايير فحص",
         "p-progress": "تحت التنفيذ",
+        
+        "p5-title": "صب أسس الهياكل الخرسانية العملاقة",
+        "p5-title-back": "صب الأساس الحصيري",
+        "p5-desc": "تنفيذ أعمال صب الأسس الحصيرية (Raft Foundations) بسماكات عالية خالية من التشققات والتكهفات مع معالجة مائية ممتازة.",
+        "p5-vol": "حجم الصب الأقصى",
+        
+        "p6-title": "ضخ الخرسانة للأبنية المرتفعة",
+        "p6-title-back": "الضخ الرأسي والارتفاعات",
+        "p6-desc": "استخدام مضخات ذراع هيدروليكية متطورة لإيصال الخرسانة لقمم الهياكل والمباني السكنية المرتفعة في الموصل.",
+        "p6-floors": "طوابق مرتفعة",
+        "p6-flow": "انسيابية الضخ",
+        
         "contact-title": "تواصل معنا وعزز شراكتك",
         "contact-subtitle": "خطوط الاتصال والصفحات الرسمية لشركة جبل الجود في خدمتك دائماً",
         "cnt-phone": "الاتصال الهاتفي المباشر",
         "cnt-whatsapp": "المحادثة عبر الواتساب",
         "cnt-facebook": "الصفحة الرسمية فيسبوك",
         "cnt-tiktok": "حسابنا على تيك توك",
+        
         "map-mosul": "الموصل",
         "map-qayyarah": "القيارة (مقر المعمل)",
         "map-baghdad": "بغداد",
@@ -93,36 +110,53 @@ const translations = {
         "srv4-desc": "A modern fleet of concrete mixers and high-reach pump trucks to supply complex, high-altitude pours.",
         "projects-title": "3D Engineering Showcase",
         "projects-subtitle": "Hover or touch the screen to tilt the projects in interactive 3D space",
+        
         "p1-title": "Al-Qayyarah Concrete Batching Plant",
         "p1-title-back": "Technical Specifications",
         "p1-desc": "Fully automated PLC control system, high-performance wet & dry mixers engineered to support large-scale national structures.",
         "p-cap": "Production Capacity",
         "p-quality": "Compliance Rate",
         "p-active": "Active / Daily Output",
+        
         "p2-title": "Transit Mixer & Pump Fleet",
         "p2-title-back": "Logistical Capacity",
         "p2-desc": "Transit mixers of 10-12 cubic meters capacity and pump trucks spanning up to 52 meters to facilitate high-altitude pours.",
         "p-trucks": "Mixer Trucks Count",
         "p-pump": "Pump Boom Reach",
         "p-ready": "24/7 Readiness",
+        
         "p3-title": "Bridge Pier Pours",
         "p3-title-back": "Marine & Bridge Engineering",
         "p3-desc": "Pouring concrete foundations resistant to sulfurous salts and water erosion factors in the Tigris River, South Mosul.",
         "p-grade": "Concrete Grade",
         "p-marine": "Water Resistance",
         "p-completed": "Fully Executed",
+        
         "p4-title": "Concrete Frame Structures",
         "p4-title-back": "Urban Contracting",
         "p4-desc": "Execution of concrete structures for multi-story buildings, malls, and residential complexes in Al-Qayyarah and Mosul.",
         "p-area": "Total Concrete Area",
         "p-standard": "Testing Standard",
         "p-progress": "Under Construction",
+        
+        "p5-title": "Massive Structure Foundation Pours",
+        "p5-title-back": "Raft Foundation Casting",
+        "p5-desc": "Executing mass concrete raft foundations with high thickness, zero cracks, and optimal curing protocols.",
+        "p5-vol": "Max Pour Volume",
+        
+        "p6-title": "High-Rise Concrete Pumping",
+        "p6-title-back": "Vertical Pumping & Heights",
+        "p6-desc": "Deploying modern hydraulic boom pumps to deliver ready-mix concrete to high-rise building frames in Mosul.",
+        "p6-floors": "Storeys Reached",
+        "p6-flow": "Pumping Efficiency",
+        
         "contact-title": "Get In Touch With Us",
         "contact-subtitle": "Direct call lines and official pages of Jabal Al-Jood at your service",
         "cnt-phone": "Direct Telephone Call",
         "cnt-whatsapp": "Chat on WhatsApp",
         "cnt-facebook": "Official Facebook Page",
         "cnt-tiktok": "Follow Us on TikTok",
+        
         "map-mosul": "Mosul",
         "map-qayyarah": "Al-Qayyarah (Batching Plant)",
         "map-baghdad": "Baghdad",
@@ -146,7 +180,6 @@ const depthValue = document.getElementById('depthValue');
 const mainScroller = document.getElementById('mainScroller');
 const depthNodes = document.querySelectorAll('.depth-node');
 const bubblesContainer = document.getElementById('bubblesContainer');
-const soundControl = document.getElementById('soundControl');
 // --------------------------------------------------------------------------
 // 1. Language Toggle Logic
 // --------------------------------------------------------------------------
@@ -205,13 +238,10 @@ function setTheme(theme) {
     
     // Customize bubble appearance or frequency according to theme
     if (theme === 'concrete') {
-        // Less bubbles, styled as dust particles
         bubblesContainer.style.opacity = '0.3';
     } else if (theme === 'desert') {
-        // Desert sand particles
         bubblesContainer.style.opacity = '0.5';
     } else {
-        // Default ocean bubbles
         bubblesContainer.style.opacity = '1.0';
     }
 }
@@ -223,7 +253,6 @@ themeToggle.addEventListener('click', () => {
 // --------------------------------------------------------------------------
 // 3. Scroll & Depth Meter Calculations
 // --------------------------------------------------------------------------
-const depths = [0, 150, 300, 600]; // Defined depths corresponding to sections
 mainScroller.addEventListener('scroll', () => {
     const scrollTop = mainScroller.scrollTop;
     const scrollHeight = mainScroller.scrollHeight - mainScroller.clientHeight;
@@ -232,17 +261,13 @@ mainScroller.addEventListener('scroll', () => {
     // Calculate simulated depth (0m to 600m)
     let depthInterpolated = 0;
     if (scrollRatio <= 0.33) {
-        // Between Sunlight (0m) and Twilight (150m)
         depthInterpolated = Math.round((scrollRatio / 0.33) * 150);
     } else if (scrollRatio <= 0.66) {
-        // Between Twilight (150m) and Midnight (300m)
         depthInterpolated = Math.round(150 + ((scrollRatio - 0.33) / 0.33) * 150);
     } else {
-        // Between Midnight (300m) and Abyss (600m)
         depthInterpolated = Math.round(300 + ((scrollRatio - 0.66) / 0.34) * 300);
     }
     
-    // Make sure we cap it at 600
     depthInterpolated = Math.min(600, Math.max(0, depthInterpolated));
     depthValue.textContent = depthInterpolated;
     // Update active node on the depth meter track
@@ -273,7 +298,7 @@ function createBubble() {
     bubble.classList.add('bubble');
     
     // Randomize dimensions
-    const size = Math.random() * 25 + 8; // 8px to 33px
+    const size = Math.random() * 25 + 8;
     bubble.style.width = `${size}px`;
     bubble.style.height = `${size}px`;
     
@@ -284,16 +309,14 @@ function createBubble() {
     const drift = (Math.random() * 80 - 40) + 'vw';
     bubble.style.setProperty('--drift', drift);
     
-    const duration = Math.random() * 6 + 6; // 6s to 12s
+    const duration = Math.random() * 6 + 6;
     bubble.style.animationDuration = `${duration}s`;
     
     const delay = Math.random() * 5;
     bubble.style.animationDelay = `${delay}s`;
     
-    // Add to container
     bubblesContainer.appendChild(bubble);
     
-    // Remove from DOM when animation ends
     setTimeout(() => {
         bubble.remove();
     }, (duration + delay) * 1000);
@@ -312,7 +335,6 @@ projectCards.forEach(card => {
     card.addEventListener('mousemove', (e) => {
         const cardRect = card.getBoundingClientRect();
         
-        // Find cursor coordinate offset from card center
         const x = e.clientX - cardRect.left;
         const y = e.clientY - cardRect.top;
         
@@ -322,23 +344,17 @@ projectCards.forEach(card => {
         const deltaX = (x - centerX) / centerX;
         const deltaY = (y - centerY) / centerY;
         
-        // Calculate dynamic rotations (tilted towards cursor position)
-        const rotX = -deltaY * 15; // Max 15 degrees tilt
+        const rotX = -deltaY * 15;
         const rotY = deltaX * 15;
         
         const cardInner = card.querySelector('.card-inner');
         
-        // If hovered, don't interfere with the Y-flip entirely unless using tilt
-        // To combine flip + tilt smoothly, we detect if hover is causing card-back visible
-        // We apply a slight tilt rotation relative to the current card rotation face
         if (card.matches(':hover')) {
-            // Check if card is flipped (hovered is true, rotates by 180deg on Y)
             cardInner.style.transform = `rotateY(${180 + rotY}deg) rotateX(${rotX}deg) scale(1.03)`;
         }
     });
     card.addEventListener('mouseleave', () => {
         const cardInner = card.querySelector('.card-inner');
-        // Reset transforms
         cardInner.style.transform = '';
     });
     
@@ -370,127 +386,6 @@ projectCards.forEach(card => {
         cardInner.style.transform = '';
     });
 });
-// --------------------------------------------------------------------------
-// 6. Premium Web Audio API Ambient Sound (Waves & Bubbles)
-// --------------------------------------------------------------------------
-let audioCtx = null;
-let soundEnabled = false;
-let waveNoiseNode = null;
-let waveGain = null;
-let bubbleInterval = null;
-function initAmbientSound() {
-    // Check if AudioContext is supported
-    const AudioContextClass = window.AudioContext || window.webkitAudioContext;
-    if (!AudioContextClass) return;
-    
-    audioCtx = new AudioContextClass();
-    
-    // 1. WAVE SYNTHESIZER (Low-pass white noise with LFO modulation)
-    // Create white noise buffer
-    const bufferSize = audioCtx.sampleRate * 2; // 2 seconds
-    const noiseBuffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
-    const output = noiseBuffer.getChannelData(0);
-    for (let i = 0; i < bufferSize; i++) {
-        output[i] = Math.random() * 2 - 1;
-    }
-    
-    const noiseSource = audioCtx.createBufferSource();
-    noiseSource.buffer = noiseBuffer;
-    noiseSource.loop = true;
-    
-    // Low pass filter to simulate deep water muffling
-    const lpFilter = audioCtx.createBiquadFilter();
-    lpFilter.type = 'lowpass';
-    lpFilter.frequency.setValueAtTime(350, audioCtx.currentTime);
-    lpFilter.Q.setValueAtTime(1.0, audioCtx.currentTime);
-    
-    // LFO to modulate filter frequency to create rising/falling wave sweeps
-    const lfo = audioCtx.createOscillator();
-    lfo.type = 'sine';
-    lfo.frequency.setValueAtTime(0.12, audioCtx.currentTime); // Wave period of ~8 seconds
-    
-    const lfoGain = audioCtx.createGain();
-    lfoGain.gain.setValueAtTime(150, audioCtx.currentTime); // Sweep filter frequency +/- 150Hz
-    
-    lfo.connect(lfoGain);
-    lfoGain.connect(lpFilter.frequency);
-    
-    // Wave gain node
-    waveGain = audioCtx.createGain();
-    waveGain.gain.setValueAtTime(0.04, audioCtx.currentTime); // Keep it ambient and soft
-    
-    noiseSource.connect(lpFilter);
-    lpFilter.connect(waveGain);
-    waveGain.connect(audioCtx.destination);
-    
-    // Start nodes
-    noiseSource.start();
-    lfo.start();
-    
-    // Save reference
-    waveNoiseNode = noiseSource;
-    // 2. BUBBLE POP GENERATOR (Randomized high-frequency sine sweeps)
-    bubbleInterval = setInterval(() => {
-        if (!soundEnabled || audioCtx.state === 'suspended') return;
-        
-        // Random chance to trigger a bubble pop
-        if (Math.random() > 0.65) {
-            playBubblePopSound();
-        }
-    }, 400);
-}
-function playBubblePopSound() {
-    if (!audioCtx) return;
-    
-    const osc = audioCtx.createOscillator();
-    const gain = audioCtx.createGain();
-    
-    osc.type = 'sine';
-    
-    // Set random bubble start pitch (higher pitch = smaller bubble)
-    const startFreq = Math.random() * 400 + 400; // 400Hz - 800Hz
-    const endFreq = startFreq * 1.5; // Pitch sweep upwards
-    
-    osc.frequency.setValueAtTime(startFreq, audioCtx.currentTime);
-    // Rapid exponential sweep upwards
-    const duration = Math.random() * 0.12 + 0.08; // 80ms to 200ms
-    osc.frequency.exponentialRampToValueAtTime(endFreq, audioCtx.currentTime + duration);
-    
-    // Soft volume sweep to prevent clicks
-    gain.gain.setValueAtTime(0.0, audioCtx.currentTime);
-    gain.gain.linearRampToValueAtTime(0.02, audioCtx.currentTime + 0.02);
-    gain.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + duration);
-    
-    osc.connect(gain);
-    gain.connect(audioCtx.destination);
-    
-    osc.start();
-    osc.stop(audioCtx.currentTime + duration);
-}
-function toggleSound() {
-    if (!audioCtx) {
-        initAmbientSound();
-    }
-    
-    if (audioCtx.state === 'suspended') {
-        audioCtx.resume();
-    }
-    
-    soundEnabled = !soundEnabled;
-    
-    if (soundEnabled) {
-        soundControl.classList.remove('muted');
-        waveGain.gain.setTargetAtTime(0.05, audioCtx.currentTime, 0.5);
-    } else {
-        soundControl.classList.add('muted');
-        if (waveGain) {
-            waveGain.gain.setTargetAtTime(0.0, audioCtx.currentTime, 0.3);
-        }
-    }
-}
-soundControl.addEventListener('click', toggleSound);
-// Mute sound by default to satisfy browser autoplay policies
-soundControl.classList.add('muted');
 // Setup default visual states
 setLanguage('ar');
 setTheme('aquatic');
